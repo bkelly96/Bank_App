@@ -9,6 +9,12 @@ import com.app.model.Transactions;
 import java.sql.SQLException;
 import java.util.Scanner;
 
+/**
+ * @author Brian Kelly
+ * @since 4/24/2021
+ * @version 1.0
+ */
+
 public class insertMain {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);

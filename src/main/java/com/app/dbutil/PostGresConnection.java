@@ -15,9 +15,9 @@ public class PostGresConnection {
         try {
             Class.forName("org.postgresql.Driver");
             //declaring username and password. Passing the information into
-            String url = "jdbc:postgresql://localhost:5432/postgres";
+            String url = "jdbc:postgresql://myfirstdb.clizqefgg5zs.us-east-2.rds.amazonaws.com:5432/postgres";
             String username = "postgres";
-            String password = "postgres";
+            String password = "w0TT#R65&ZC*";
             connection = DriverManager.getConnection(url, username, password);
         } catch (ClassNotFoundException | SQLException e) {
             System.out.println(e);
