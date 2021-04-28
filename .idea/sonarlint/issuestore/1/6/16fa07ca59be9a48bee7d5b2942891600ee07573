@@ -1,4 +1,6 @@
 
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8­í¥¦‘/
 O
-java:S4925"-Remove this "Class.forName()", it is useless.(õ†¨Äùÿÿÿÿ8¨¥ã/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8Ùø ã/
+java:S4925"-Remove this "Class.forName()", it is useless.(õ†¨Äùÿÿÿÿ8­í¥¦‘/
+O
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8­í¥¦‘/

@@ -8,5 +8,7 @@ import java.sql.SQLException;
 public interface UserDAO {
 
     //setting the rule that we want to create an employee
-    public User createUser(User user) throws SQLException, BusinessException;
+     User createUser(User user) throws SQLException, BusinessException;
+     //setting the rule for logging into the account
+     User loginUsername(User user) throws SQLException;
 }

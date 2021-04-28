@@ -7,22 +7,24 @@ public class BankAccount {
 
     private int bankaccountid;
     //considering using BIGDECIMAL because of the double/float problem
-    private BigDecimal account;
-    private String userid;
-
-    public BankAccount(int bankaccountid) {
-        this.bankaccountid = bankaccountid;
-    }
+    private int userid;
+    private BigDecimal accountbalance;
+    private String statuses;
 
     public BankAccount(){
 
     }
 
-    public BankAccount(int bankaccountid, BigDecimal account, String userid) {
+    public BankAccount(int bankaccountid, BigDecimal account, int userid, String statuses) {
         this.bankaccountid = bankaccountid;
-        this.account = account;
+        this.accountbalance = account;
         this.userid = userid;
     }
+
+    public BankAccount(int bankaccountid) {
+        this.bankaccountid = bankaccountid;
+    }
+
 
     public int getBankaccountid() {
         return bankaccountid;
@@ -32,28 +34,45 @@ public class BankAccount {
         this.bankaccountid = bankaccountid;
     }
 
-    public BigDecimal getAccount() {
-        return account;
-    }
-
-    public void setAccount(BigDecimal account) {
-        this.account = account;
-    }
-
-    public String getUserid() {
+    public int getUserid() {
         return userid;
     }
 
-    public void setUserid(String userid) {
+    public void setUserid(int userid) {
         this.userid = userid;
     }
+
+    public BigDecimal getAccountbalance() {
+        return accountbalance;
+    }
+
+    public boolean setAccountbalance(BigDecimal accountbalance) {
+
+        if (accountbalance.intValue() < 0)
+                return false;
+
+        this.accountbalance = accountbalance;
+        return true;
+    }
+
+    public String getStatuses() {
+        if (statuses==null)
+            return "pending";
+        return statuses;
+    }
+
+    public void setStatuses(String statuses) {
+        this.statuses = statuses;
+    }
+
 
     @Override
     public String toString() {
         return "BankAccount{" +
                 "bankaccountid=" + bankaccountid +
-                ", account=" + account +
                 ", userid='" + userid + '\'' +
+                ", amount=" + accountbalance +
+                ", Status='" + statuses+ '\'' +
                 '}';
     }
 }

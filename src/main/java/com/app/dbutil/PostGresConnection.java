@@ -1,5 +1,7 @@
 package com.app.dbutil;
 
+import com.app.BusinessException;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -16,10 +18,15 @@ public class PostGresConnection {
             Class.forName("org.postgresql.Driver");
             //declaring username and password. Passing the information into
             String url = "jdbc:postgresql://myfirstdb.clizqefgg5zs.us-east-2.rds.amazonaws.com:5432/postgres";
-            String username = "postgres";
-            String password = "w0TT#R65&ZC*";
+            //environment variable for usernames
+            String username = System.getenv("database_username");
+           //environment variables for password
+            String password = System.getenv("database_password");
+            if (username == null || password == null)
+                throw new BusinessException("Database credentials are null did you set your environment variables");
+
             connection = DriverManager.getConnection(url, username, password);
-        } catch (ClassNotFoundException | SQLException e) {
+        } catch (Exception e) {
             System.out.println(e);
         }
     }
@@ -30,10 +37,3 @@ public class PostGresConnection {
         }
 
     }
-
-
-
-/*
-How to build Singleton Java class?
-Disable the constructor
- */

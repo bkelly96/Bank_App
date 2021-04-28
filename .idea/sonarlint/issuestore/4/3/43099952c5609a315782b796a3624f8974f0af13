@@ -1,3 +1,13 @@
 
+Z	java:S106T"9Replace this use of System.out or System.err by a logger.(İûÂÉúÿÿÿÿ8ëí±¬‘/
+J
+java:S1128".Remove this unused import 'com.app.Bank_Main'.(‚„ş8ñ‘ú¬‘/
+i
+java:S20955"GUse try-with-resources or close this "Statement" in a "finally" clause.(õ½ÛØşÿÿÿÿ8ëí±¬‘/
 l
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(­µøÚ8µ·ùç/
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(­µøÚ8­–¨Ÿ‘/
+J
+java:S1125O"(Remove the literal "true" boolean value.(Ù¹¢ëùÿÿÿÿ8»Í¨­‘/
+m	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï†óë8ëí±¬‘/
+>
+java:S1116T"Remove this empty statement.(İûÂÉúÿÿÿÿ8ëí±¬‘/

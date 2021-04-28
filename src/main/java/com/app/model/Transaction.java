@@ -6,10 +6,10 @@ import java.sql.Timestamp;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 
-public class Transactions {
+public class Transaction {
 
     private int transactionid;
-    private String transactiontime;
+    private Timestamp transactiontime;
     private BigDecimal value;
     private int bank_account_source_id;
     private int bank_account_destination_id;
@@ -21,10 +21,10 @@ public class Transactions {
    // System.out.println(ts);
 
 
-    public Transactions() {
+    public Transaction() {
     }
 
-    public Transactions(int transactionid, String transactiontime, int bank_account_source_id, int bank_account_destination_id, String transaction_type) {
+    public Transaction(int transactionid, Timestamp transactiontime, int bank_account_source_id, int bank_account_destination_id, String transaction_type) {
         this.transactionid = transactionid;
         this.transactiontime = transactiontime;
         this.bank_account_source_id = bank_account_source_id;
@@ -40,11 +40,11 @@ public class Transactions {
         this.transactionid = transactionid;
     }
 
-    public String getTransactiontime() {
+    public Timestamp getTransactiontime() {
         return transactiontime;
     }
 
-    public void setTransactiontime(String transactiontime) {
+    public void setTransactiontime(Timestamp transactiontime) {
         this.transactiontime = transactiontime;
     }
 
