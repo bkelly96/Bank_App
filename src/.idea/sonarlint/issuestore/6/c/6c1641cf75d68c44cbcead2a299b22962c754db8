@@ -1,0 +1,50 @@
+
+T	java:S106æ"9Replace this use of System.out or System.err by a logger.(¿°˜‚úÿÿÿÿ
+N	java:S106ó"9Replace this use of System.out or System.err by a logger.(šÔÎo
+G
+java:S1481¥"+Remove this unused "choice" local variable.(Á…ìäüÿÿÿÿ
+T	java:S106ö"9Replace this use of System.out or System.err by a logger.(ÙÛŸ™ıÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ô‰Ñİıÿÿÿÿ
+7	java:S131=""Add a default case to this switch.(¨ÕÉ
+T	java:S106É"9Replace this use of System.out or System.err by a logger.(·İËÉøÿÿÿÿ
+M
+java:S1144¡"1Remove this unused private "employeeMenu" method.(ĞçÒºùÿÿÿÿ
+3
+java:S1116ú"Remove this empty statement.(Êî¤à
+T	java:S106Ê"9Replace this use of System.out or System.err by a logger.(§¤ıÆÿÿÿÿÿ
+8
+java:S2111Ä"!Use "BigDecimal.valueOf" instead.(¢Šõ¯
+O	java:S106½"9Replace this use of System.out or System.err by a logger.(şèÔú
+T	java:S106Ğ"9Replace this use of System.out or System.err by a logger.(¿°˜‚úÿÿÿÿ
+Q	java:S125J"<This block of commented-out lines of code should be removed.(Èíœ»
+O	java:S106¢"9Replace this use of System.out or System.err by a logger.(¸áˆá
+T	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(ğˆÌïüÿÿÿÿ
+G
+java:S1172¡"+Remove this unused method parameter "user".(ĞçÒºùÿÿÿÿ
+O	java:S106†"9Replace this use of System.out or System.err by a logger.(³èÎà
+R	java:S125•"<This block of commented-out lines of code should be removed.(›ûä·
+D
+java:S1125÷"(Remove the literal "true" boolean value.(‰ÙÏ²şÿÿÿÿ
+V
+java:S1128	";Remove this unused import 'com.app.dbutil.PasswordHashing'.(ãøğšúÿÿÿÿ
+@
+java:S1125Ä")Remove the literal "false" boolean value.(¢Šõ¯
+8	java:S131‹""Add a default case to this switch.(¨ÕÉ
+T	java:S106ë"9Replace this use of System.out or System.err by a logger.(×ï©ğùÿÿÿÿ
+8
+java:S2111ı"!Use "BigDecimal.valueOf" instead.(Ú´ÕÈ
+W	java:S125ğ"<This block of commented-out lines of code should be removed.(“ê•®ùÿÿÿÿ
+S
+java:S1128
+">Remove this unused import 'com.app.dbutil.PostGresConnection'.(Çª}
+O	java:S106÷"9Replace this use of System.out or System.err by a logger.(Ø¼¢ƒ
+O	java:S106ú"9Replace this use of System.out or System.err by a logger.(Êî¤à
+T	java:S106¤"9Replace this use of System.out or System.err by a logger.(ğˆÌïüÿÿÿÿ
+T	java:S106×"9Replace this use of System.out or System.err by a logger.(ş¶üÜüÿÿÿÿ
+G
+java:S1172Ö"+Remove this unused method parameter "user".(×¹¢ÿÿÿÿÿ
+V
+java:S1854¥":Remove this useless assignment to local variable "choice".(Á…ìäüÿÿÿÿ
+R	java:S125§"<This block of commented-out lines of code should be removed.(¨ÕÉ
+O	java:S106¤"9Replace this use of System.out or System.err by a logger.(ßÌàñ
+T	java:S106º"9Replace this use of System.out or System.err by a logger.(Ä³şäşÿÿÿÿ

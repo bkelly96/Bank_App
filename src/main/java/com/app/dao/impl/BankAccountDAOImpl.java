@@ -50,7 +50,7 @@ public class BankAccountDAOImpl implements BankAccountDao {
     public BankAccount viewBankAccount(int bankaccountid) throws SQLException, BusinessException {
 
       try{
-        //this is the page where we store the data into the table
+        //Establishing connection
         Connection connection = PostGresConnection.getConnection();
 
         BankAccount bankAccount = new BankAccount();

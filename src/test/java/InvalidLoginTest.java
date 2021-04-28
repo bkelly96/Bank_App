@@ -26,7 +26,6 @@ public class InvalidLoginTest {
 
         assertEquals(user,null);
 
-
     }
 
 }

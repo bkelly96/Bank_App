@@ -79,4 +79,19 @@ public class Transaction {
     public void setTransaction_type(String transaction_type) {
         this.transaction_type = transaction_type;
     }
+
+    @Override
+    public String toString() {
+        return "Transactions{" +
+                "transactionid=" + transactionid +
+                ", transactiontime='" + transactiontime + '\'' +
+                ", balance =" + value +
+                ", source id ='" + bank_account_source_id+ '\'' +
+                ", destination id ='" + bank_account_source_id+ '\'' +
+                ", transaction type  ='" + transaction_type+ '\'' +
+                '}';
+    }
+
 }
+
+

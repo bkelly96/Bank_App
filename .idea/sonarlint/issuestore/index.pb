@@ -1,6 +1,4 @@
 
-]
--src/main/java/com/app/model/Transactions.java,d\2\d2b25c67445ac82e27e3e888bb02e36759fec4c7
 \
 ,src/main/java/com/app/model/BankAccount.java,b\9\b95f2899bde007b058aaf71ed32919ff35ca83b1
 \
@@ -15,8 +13,6 @@ U
 %src/main/java/com/app/model/User.java,3\4\346c2514c14e4de882cc4f60603bad65c4c0e6d7
 d
 4src/main/java/com/app/dbutil/PostGresConnection.java,1\6\16fa07ca59be9a48bee7d5b2942891600ee07573
-U
-%src/main/java/com/app/insertMain.java,f\c\fc38f19b65aced7fb29bcc76f703543f7f02e3cf
 7
 gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
 ;

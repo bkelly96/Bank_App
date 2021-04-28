@@ -1,15 +1,0 @@
-
-U	java:S106"9Replace this use of System.out or System.err by a logger.(Ñæï­8ªñ’è/
-U	java:S106%"9Replace this use of System.out or System.err by a logger.(Êî¤à8¦²è/
-S
-java:S1128"6Remove this unused import 'com.app.model.BankAccount'.(°‹Ëİ8İÁµé/
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(§‚Ÿ¨
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ñ¨¢Ä8¶öè/
-Z	java:S106!"9Replace this use of System.out or System.err by a logger.(ÙÛŸ™ıÿÿÿÿ8ÌÂºè/
-U	java:S106""9Replace this use of System.out or System.err by a logger.(Ø¼¢ƒ8“°¼è/
-9
-java:S1116%"Remove this empty statement.(Êî¤à8¦²è/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¾±”û8ªñ’è/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(‚Ÿç—8ªñ’è/
-Y
-java:S1128"7Remove this unused import 'com.app.model.Transactions'.(ïØ®œıÿÿÿÿ8ï÷µé/

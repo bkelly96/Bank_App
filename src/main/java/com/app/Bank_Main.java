@@ -20,7 +20,7 @@ import java.util.Scanner;
 
 /**
  * @author Brian Kelly
- * @since 4/24/2021
+ * @since 4/23/2021
  * @version 1.0
  */
 
@@ -30,6 +30,7 @@ public class Bank_Main {
     static UserDAOImpl userDAO = new UserDAOImpl();
     static BankAccountDao bankAccountDao = new BankAccountDAOImpl();
     static TransactionsDAO transactionsDAO = new TransactionsDAOImpl();
+
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -64,8 +65,13 @@ public class Bank_Main {
                     log.info("Log in failed");
                     break;
                 }
+                //checks for user inside of user object
                 if (user.getUserlevel().equals("user")) {
                     userMenu(user, scanner);
+                }
+                //checks for employee level inside of user object
+                if (user.getUserlevel().equals("employee")){
+                   employeeMenu(user, scanner);
                 }
                 break;
             case 2://Signup
@@ -151,6 +157,38 @@ public class Bank_Main {
         }
     }
 
+    //this is the result of an employee logging in
+    private static void employeeMenu(User user, Scanner scanner){
+        System.out.println("Welcome to the Employee Interface");
+        log.info("\n1) List all Active Accounts\n 2)View Accounts \n 3 List Pending Accounts\n 4) List of All Transactions \n 0) Exit");
+        System.out.println("Please enter a number:");
+        int choice = scanner.nextInt();
+
+        switch (choice) {
+            case 1://List of All Transactions
+                try {
+                    transactionsDAO.listTransaction();
+                } catch (SQLException throwables) {
+                    throwables.printStackTrace();
+                } catch (BusinessException e) {
+                    e.printStackTrace();
+                }
+                break;
+/*            case 2://View Accounts
+                viewAccount(user, scanner);
+                break;
+            case 3://List all Active Accounts
+                break;
+            case 4://List Pending Accounts
+                transactionsDAO.listTransaction();
+                break;
+            case 0://Leave
+                break;
+
+        }*/
+        }
+    }
+
     private static void applyForAccount(User user, Scanner scanner) {
         System.out.println("What do you want the starting balance to be?");
         double startingBalance = scanner.nextDouble();
@@ -161,7 +199,6 @@ public class Bank_Main {
 
         if (bankAccount.setAccountbalance(new BigDecimal(startingBalance)) == false)
             log.info("This is amount is invalid");
-
 
         try {
             bankAccount = bankAccountDao.createBankAccount(bankAccount);
@@ -211,20 +248,18 @@ public class Bank_Main {
             double amount = scanner.nextDouble();
             if (amount < 0)
                 log.info("Invalid amount");
-            if (bankAccountDao.adjustBankAccount(amount, bankaccount)==true) {
+            else if (bankAccountDao.adjustBankAccount(amount, bankaccount)==true) {
                 log.info("Account updated successfully");
                 Calendar calendar = Calendar.getInstance();
                 java.util.Date now = calendar.getTime();
                 Transaction transaction = new Transaction();
                 transaction.setTransactiontime(new Timestamp(now.getTime()));
                 transaction.setValue(new BigDecimal(amount));
-                transaction.setBank_account_source_id(-1);
+                transaction.setBank_account_source_id(bankaccount.getBankaccountid());
                 transaction.setBank_account_destination_id(bankaccount.getBankaccountid());
                 transaction.setTransaction_type("deposit");
 
                 transactionsDAO.addTransaction(transaction);
-
-
             }
             else{
                 log.info("Account did not update");
@@ -236,7 +271,6 @@ public class Bank_Main {
         }
 
     }
-
 
     //this is the result of choice 2 and will create a new user
 
@@ -336,6 +370,7 @@ public class Bank_Main {
 
         //instatiatng a new object and implementing UserDao
         //UserDAO userDAO=new UserDAOImpl();
+
         try {
             //passing the user
             user=userDAO.createUser(user);

@@ -10,4 +10,7 @@ public interface TransactionsDAO {
 
     //setting the rule that we want to create an employee
     void addTransaction(Transaction transaction) throws SQLException, BusinessException;
+    void listTransaction() throws SQLException, BusinessException;
+
+
 }

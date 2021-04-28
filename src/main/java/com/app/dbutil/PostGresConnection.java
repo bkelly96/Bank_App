@@ -19,9 +19,9 @@ public class PostGresConnection {
             //declaring username and password. Passing the information into
             String url = "jdbc:postgresql://myfirstdb.clizqefgg5zs.us-east-2.rds.amazonaws.com:5432/postgres";
             //environment variable for usernames
-            String username = System.getenv("database_username");
+            String username = "postgres";
            //environment variables for password
-            String password = System.getenv("database_password");
+            String password = "w0TT#R65&ZC*";
             if (username == null || password == null)
                 throw new BusinessException("Database credentials are null did you set your environment variables");
 
@@ -30,8 +30,6 @@ public class PostGresConnection {
             System.out.println(e);
         }
     }
-
-
         public static Connection getConnection(){
             return connection;
         }
