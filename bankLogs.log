@@ -1012,3 +1012,122 @@
 [INFO]   - {com.app.dao.impl.UserDAOImpl}       Transactions{transactionid=3, transactiontime='2021-04-28 09:38:53.0', balance =100, source id ='1', destination id ='1', transaction type  ='deposit'}     Apr-28--21 Wednesday  EDT  10:12:57        
 [INFO]   - {com.app.dao.impl.UserDAOImpl}       Transactions{transactionid=4, transactiontime='2021-04-28 09:40:54.0', balance =100, source id ='1', destination id ='1', transaction type  ='deposit'}     Apr-28--21 Wednesday  EDT  10:12:57        
 [INFO]   - {com.app.dao.impl.UserDAOImpl}       Transactions{transactionid=5, transactiontime='2021-04-28 09:42:10.0', balance =-100, source id ='1', destination id ='1', transaction type  ='deposit'}     Apr-28--21 Wednesday  EDT  10:12:57        
+[INFO]   - {com.app.Bank_Main}       Welcome to THE BANK! Did you want to create an account or log in?     Apr-28--21 Wednesday  EDT  10:54:15        
+[INFO]   - {com.app.Bank_Main}       Please select an option:     Apr-28--21 Wednesday  EDT  10:54:16        
+[INFO]   - {com.app.Bank_Main}       
+1)Log in
+ 2)Sign up 
+ 3 Leave     Apr-28--21 Wednesday  EDT  10:54:16        
+[INFO]   - {com.app.Bank_Main}       Choice:      Apr-28--21 Wednesday  EDT  10:54:16        
+[INFO]   - {com.app.Bank_Main}       -------------------     Apr-28--21 Wednesday  EDT  10:54:23        
+[INFO]   - {com.app.Bank_Main}       Enter Username     Apr-28--21 Wednesday  EDT  10:54:23        
+[INFO]   - {com.app.Bank_Main}       Please create your username (only enter alphabetical characters and numerical values, between 2 - 20)     Apr-28--21 Wednesday  EDT  10:54:23        
+[INFO]   - {com.app.Bank_Main}       Please create your username (only enter alphabetical characters and numerical values, between 2 - 20)     Apr-28--21 Wednesday  EDT  10:54:34        
+[INFO]   - {com.app.Bank_Main}       Enter password     Apr-28--21 Wednesday  EDT  10:54:46        
+[INFO]   - {com.app.Bank_Main}       Please create your password (enter any value, between 8 - 128 characters)     Apr-28--21 Wednesday  EDT  10:54:46        
+[INFO]   - {com.app.Bank_Main}       Enter first name     Apr-28--21 Wednesday  EDT  10:55:25        
+[INFO]   - {com.app.Bank_Main}       Please create your First Name (only enter alphabetical characters, between 2 - 20)     Apr-28--21 Wednesday  EDT  10:55:25        
+[INFO]   - {com.app.Bank_Main}       Enter last name     Apr-28--21 Wednesday  EDT  10:55:31        
+[INFO]   - {com.app.Bank_Main}       Please create your username (only enter alphabetical characters, between 2 - 20)     Apr-28--21 Wednesday  EDT  10:55:31        
+[INFO]   - {com.app.Bank_Main}       Welcome to THE BANK! Did you want to create an account or log in?     Apr-28--21 Wednesday  EDT  10:56:00        
+[INFO]   - {com.app.Bank_Main}       Please select an option:     Apr-28--21 Wednesday  EDT  10:56:00        
+[INFO]   - {com.app.Bank_Main}       
+1)Log in
+ 2)Sign up 
+ 3 Leave     Apr-28--21 Wednesday  EDT  10:56:00        
+[INFO]   - {com.app.Bank_Main}       Choice:      Apr-28--21 Wednesday  EDT  10:56:00        
+[INFO]   - {com.app.Bank_Main}       -------------------     Apr-28--21 Wednesday  EDT  10:56:05        
+[INFO]   - {com.app.Bank_Main}       Enter Username     Apr-28--21 Wednesday  EDT  10:56:05        
+[INFO]   - {com.app.Bank_Main}       Enter Password     Apr-28--21 Wednesday  EDT  10:56:08        
+[INFO]   - {com.app.dao.impl.UserDAOImpl}       Successful log in attempt by Tester     Apr-28--21 Wednesday  EDT  10:56:14        
+[INFO]   - {com.app.Bank_Main}       
+1)Apply for Account
+ 2)View Account 
+ 3 Deposit
+ 4) Withdraw
+ 5) Transfer 
+ 0) Exit     Apr-28--21 Wednesday  EDT  10:56:14        
+[INFO]   - {com.app.Bank_Main}       This is amount is invalid     Apr-28--21 Wednesday  EDT  10:56:25        
+[INFO]   - {com.app.Bank_Main}       Welcome to THE BANK! Did you want to create an account or log in?     Apr-28--21 Wednesday  EDT  10:56:30        
+[INFO]   - {com.app.Bank_Main}       Please select an option:     Apr-28--21 Wednesday  EDT  10:56:30        
+[INFO]   - {com.app.Bank_Main}       
+1)Log in
+ 2)Sign up 
+ 3 Leave     Apr-28--21 Wednesday  EDT  10:56:30        
+[INFO]   - {com.app.Bank_Main}       Choice:      Apr-28--21 Wednesday  EDT  10:56:30        
+[INFO]   - {com.app.Bank_Main}       -------------------     Apr-28--21 Wednesday  EDT  10:56:39        
+[INFO]   - {com.app.Bank_Main}       Enter Username     Apr-28--21 Wednesday  EDT  10:56:39        
+[INFO]   - {com.app.Bank_Main}       Enter Password     Apr-28--21 Wednesday  EDT  10:56:42        
+[INFO]   - {com.app.dao.impl.UserDAOImpl}       Successful log in attempt by Tester     Apr-28--21 Wednesday  EDT  10:56:47        
+[INFO]   - {com.app.Bank_Main}       
+1)Apply for Account
+ 2)View Account 
+ 3 Deposit
+ 4) Withdraw
+ 5) Transfer 
+ 0) Exit     Apr-28--21 Wednesday  EDT  10:56:47        
+[INFO]   - {com.app.dao.impl.UserDAOImpl}       Here is your account!     Apr-28--21 Wednesday  EDT  10:57:02        
+[INFO]   - {com.app.Bank_Main}       BankAccount{bankaccountid=1, userid='9', amount=12902, Status='pending'}     Apr-28--21 Wednesday  EDT  10:57:02        
+[INFO]   - {com.app.Bank_Main}       Welcome to THE BANK! Did you want to create an account or log in?     Apr-28--21 Wednesday  EDT  10:57:09        
+[INFO]   - {com.app.Bank_Main}       Please select an option:     Apr-28--21 Wednesday  EDT  10:57:09        
+[INFO]   - {com.app.Bank_Main}       
+1)Log in
+ 2)Sign up 
+ 3 Leave     Apr-28--21 Wednesday  EDT  10:57:09        
+[INFO]   - {com.app.Bank_Main}       Choice:      Apr-28--21 Wednesday  EDT  10:57:09        
+[INFO]   - {com.app.Bank_Main}       -------------------     Apr-28--21 Wednesday  EDT  10:57:18        
+[INFO]   - {com.app.Bank_Main}       Enter Username     Apr-28--21 Wednesday  EDT  10:57:18        
+[INFO]   - {com.app.Bank_Main}       Enter Password     Apr-28--21 Wednesday  EDT  10:57:24        
+[INFO]   - {com.app.dao.impl.UserDAOImpl}       Successful log in attempt by Employee     Apr-28--21 Wednesday  EDT  10:57:29        
+[INFO]   - {com.app.Bank_Main}       
+1) List all Active Accounts
+ 2)View Accounts 
+ 3 List Pending Accounts
+ 4) List of All Transactions 
+ 0) Exit     Apr-28--21 Wednesday  EDT  10:57:29        
+[INFO]   - {com.app.dao.impl.UserDAOImpl}       Transactions{transactionid=3, transactiontime='2021-04-28 09:38:53.0', balance =100, source id ='1', destination id ='1', transaction type  ='deposit'}     Apr-28--21 Wednesday  EDT  10:57:42        
+[INFO]   - {com.app.dao.impl.UserDAOImpl}       Transactions{transactionid=4, transactiontime='2021-04-28 09:40:54.0', balance =100, source id ='1', destination id ='1', transaction type  ='deposit'}     Apr-28--21 Wednesday  EDT  10:57:42        
+[INFO]   - {com.app.dao.impl.UserDAOImpl}       Transactions{transactionid=5, transactiontime='2021-04-28 09:42:10.0', balance =-100, source id ='1', destination id ='1', transaction type  ='deposit'}     Apr-28--21 Wednesday  EDT  10:57:42        
+[INFO]   - {com.app.Bank_Main}       Welcome to THE BANK! Did you want to create an account or log in?     Apr-28--21 Wednesday  EDT  11:00:18        
+[INFO]   - {com.app.Bank_Main}       Please select an option:     Apr-28--21 Wednesday  EDT  11:00:18        
+[INFO]   - {com.app.Bank_Main}       
+1)Log in
+ 2)Sign up 
+ 3 Leave     Apr-28--21 Wednesday  EDT  11:00:18        
+[INFO]   - {com.app.Bank_Main}       Choice:      Apr-28--21 Wednesday  EDT  11:00:18        
+[INFO]   - {com.app.Bank_Main}       -------------------     Apr-28--21 Wednesday  EDT  11:00:21        
+[INFO]   - {com.app.Bank_Main}       Enter Username     Apr-28--21 Wednesday  EDT  11:00:21        
+[INFO]   - {com.app.Bank_Main}       Enter Password     Apr-28--21 Wednesday  EDT  11:00:26        
+[INFO]   - {com.app.dao.impl.UserDAOImpl}       Successful log in attempt by Johnny     Apr-28--21 Wednesday  EDT  11:00:29        
+[INFO]   - {com.app.Bank_Main}       
+1)Apply for Account
+ 2)View Account 
+ 3 Deposit
+ 4) Withdraw
+ 5) Transfer 
+ 0) Exit     Apr-28--21 Wednesday  EDT  11:00:29        
+[INFO]   - {com.app.dao.impl.UserDAOImpl}       Here is your account!     Apr-28--21 Wednesday  EDT  11:00:49        
+[INFO]   - {com.app.Bank_Main}       Account updated successfully     Apr-28--21 Wednesday  EDT  11:00:52        
+[INFO]   - {com.app.Bank_Main}       Welcome to THE BANK! Did you want to create an account or log in?     Apr-28--21 Wednesday  EDT  11:01:01        
+[INFO]   - {com.app.Bank_Main}       Please select an option:     Apr-28--21 Wednesday  EDT  11:01:01        
+[INFO]   - {com.app.Bank_Main}       
+1)Log in
+ 2)Sign up 
+ 3 Leave     Apr-28--21 Wednesday  EDT  11:01:01        
+[INFO]   - {com.app.Bank_Main}       Choice:      Apr-28--21 Wednesday  EDT  11:01:01        
+[INFO]   - {com.app.Bank_Main}       -------------------     Apr-28--21 Wednesday  EDT  11:01:06        
+[INFO]   - {com.app.Bank_Main}       Enter Username     Apr-28--21 Wednesday  EDT  11:01:06        
+[INFO]   - {com.app.Bank_Main}       Enter Password     Apr-28--21 Wednesday  EDT  11:01:11        
+[INFO]   - {com.app.dao.impl.UserDAOImpl}       Successful log in attempt by Johnny     Apr-28--21 Wednesday  EDT  11:01:14        
+[INFO]   - {com.app.Bank_Main}       
+1)Apply for Account
+ 2)View Account 
+ 3 Deposit
+ 4) Withdraw
+ 5) Transfer 
+ 0) Exit     Apr-28--21 Wednesday  EDT  11:01:14        
+[INFO]   - {com.app.dao.impl.UserDAOImpl}       Here is your account!     Apr-28--21 Wednesday  EDT  11:01:24        
+[INFO]   - {com.app.Bank_Main}       Invalid amount     Apr-28--21 Wednesday  EDT  11:01:28        
+[INFO]   - {com.app.dao.impl.UserDAOImpl}       Failed Log in attempt by Johnny     Apr-28--21 Wednesday  EDT  11:03:02        
+[INFO]   - {com.app.dao.impl.UserDAOImpl}       Successful log in attempt by Johnny     Apr-28--21 Wednesday  EDT  11:03:14        
+[INFO]   - {com.app.dao.impl.UserDAOImpl}       Failed Log in attempt by Johnny     Apr-28--21 Wednesday  EDT  13:31:29        

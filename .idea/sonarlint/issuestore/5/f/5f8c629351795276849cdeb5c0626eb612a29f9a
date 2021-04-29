@@ -1,19 +1,19 @@
 
-r	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ıÿ£ûÿÿÿÿ8Šƒ ‘/
 m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îˆˆÇ8éø„ ‘/
-X	java:S125"<This block of commented-out lines of code should be removed.(ÃŞÆ†8ó“äŸ‘/
-j	java:S100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öà§‡8Šƒ ‘/
-j	java:S100?"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÛĞ8Šƒ ‘/
-j	java:S100O"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¿ °8Šƒ ‘/
-‡	java:S116"fRename this field "bank_account_destination_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¸§•ÿÿÿÿÿ8ƒºéŸ‘/
-m	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÛĞ8Šƒ ‘/
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îˆˆÇ8úĞ… ‘/
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îˆˆÇ8ƒÇ„ ‘/
-|	java:S116"[Rename this field "transaction_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»§·úÿÿÿÿ8¥‚ ‘/
-j	java:S100C"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÄ®°8Šƒ ‘/
-m	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¿ °8Šƒ ‘/
-o	java:S100G"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ıÿ£ûÿÿÿÿ8Šƒ ‘/
-}	java:S116"aRename this field "bank_account_source_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şˆ»€8ÍÁèŸ‘/
-j	java:S100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†‡ÿ¬8Šƒ ‘/
+r	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ıÿ£ûÿÿÿÿ8Šƒ ‘/
 T
 java:S1128"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8ó“äŸ‘/
+‡	java:S116"fRename this field "bank_account_destination_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¸§•ÿÿÿÿÿ8ƒºéŸ‘/
+|	java:S116"[Rename this field "transaction_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»§·úÿÿÿÿ8¥‚ ‘/
+j	java:S100C"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÄ®°8Šƒ ‘/
+j	java:S100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öà§‡8Šƒ ‘/
+o	java:S100G"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ıÿ£ûÿÿÿÿ8Šƒ ‘/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îˆˆÇ8ƒÇ„ ‘/
+m	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÛĞ8Šƒ ‘/
+j	java:S100?"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÛĞ8Šƒ ‘/
+j	java:S100O"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¿ °8Šƒ ‘/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îˆˆÇ8úĞ… ‘/
+m	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¿ °8Šƒ ‘/
+X	java:S125"<This block of commented-out lines of code should be removed.(ÃŞÆ†8ó“äŸ‘/
+}	java:S116"aRename this field "bank_account_source_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şˆ»€8ÍÁèŸ‘/
+j	java:S100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†‡ÿ¬8Šƒ ‘/

@@ -1,7 +1,13 @@
 
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(İûÂÉúÿÿÿÿ8™ßÜ²‘/
-q
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8×Ã©²‘/
-]	java:S125%"<This block of commented-out lines of code should be removed.(í¬ÿ‚ûÿÿÿÿ8œôàÄ‘/
 >
-java:S1116"Remove this empty statement.(İûÂÉúÿÿÿÿ8™ßÜ²‘/
+java:S1116E"Remove this empty statement.(İûÂÉúÿÿÿÿ8ºäõÅ‘/
+q
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8×Ã©²‘/
+i
+java:S2095/"GUse try-with-resources or close this "Statement" in a "finally" clause.(õ½ÛØşÿÿÿÿ8’ûÅ‘/
+S
+java:S3416"6Update this logger to use "TransactionsDAOImpl.class".(£µóî8§ Æ‘/
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(İûÂÉúÿÿÿÿ8™ßÜ²‘/
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(İûÂÉúÿÿÿÿ8ºäõÅ‘/
+>
+java:S1116!"Remove this empty statement.(İûÂÉúÿÿÿÿ8™ßÜ²‘/

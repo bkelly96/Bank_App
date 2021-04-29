@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="InvalidLoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-28T17:31:28" hostname="DESKTOP-SLHM6JE" time="0.434">
+  <properties/>
+  <testcase name="testinvalidlogin()" classname="InvalidLoginTest" time="0.434"/>
+  <system-out><![CDATA[Failed Log in attempt by Johnny
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
