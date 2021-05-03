@@ -16,11 +16,11 @@ com/app/dao/impl/UserDAOImpl.java
  com.app.dao.impl.UserDAOImpl
 com/app/dbutil/PostGresConnection.java
  com.app.dbutil.PostGresConnection
-com/app/Bank_Main.java
- com.app.Bank_Main
+com/app/dao/impl/TransactionsDAOImpl.java
+ com.app.dao.impl.TransactionsDAOImpl
 com/app/dao/TransactionsDAO.java
  com.app.dao.TransactionsDAO
 com/app/model/Transaction.java
  com.app.model.Transaction
-com/app/dao/impl/TransactionsDAOImpl.java
- com.app.dao.impl.TransactionsDAOImpl
+com/app/Bank_Main.java
+ com.app.Bank_Main

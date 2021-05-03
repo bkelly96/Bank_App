@@ -129,7 +129,7 @@ public class Bank_Main {
 
     //This is the result of a user logging in
 
-    private static void userMenu(User user, Scanner scanner) {
+    public static void userMenu(User user, Scanner scanner) {
 
         System.out.println("Welcome to your Bank menu");
         log.info("\n1)Apply for Account\n 2)View Account \n 3 Deposit\n 4) Withdraw\n 5) Transfer \n 0) Exit");
@@ -158,7 +158,7 @@ public class Bank_Main {
     }
 
     //this is the result of an employee logging in
-    private static void employeeMenu(User user, Scanner scanner){
+    public static void employeeMenu(User user, Scanner scanner){
         System.out.println("Welcome to the Employee Interface");
         log.info("\n1) List all Active Accounts\n 2)View Accounts \n 3 List Pending Accounts\n 4) List of All Transactions \n 0) Exit");
         System.out.println("Please enter a number:");

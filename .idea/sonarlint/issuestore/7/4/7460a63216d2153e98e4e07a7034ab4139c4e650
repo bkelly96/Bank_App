@@ -1,48 +1,48 @@
 
-^	java:S125ô"<This block of commented-out lines of code should be removed.(“ê•®ùÿÿÿÿ8éíÄ‘/
-^	java:S125²"<This block of commented-out lines of code should be removed.(“¿éÿıÿÿÿÿ8áúîÅ‘/
-?
-java:S2111"!Use "BigDecimal.valueOf" instead.(Ú´ÕÈ8éíÄ‘/
 V	java:S106†"9Replace this use of System.out or System.err by a logger.(³èÎà8ûºˆ¯‘/
-G
-java:S1125È")Remove the literal "false" boolean value.(¢Šõ¯8éíÄ‘/
->	java:S131=""Add a default case to this switch.(¨ÕÉ8Ö¼Ï¦‘/
-[	java:S106¤"9Replace this use of System.out or System.err by a logger.(ğˆÌïüÿÿÿÿ8éíÄ‘/
-V	java:S106ş"9Replace this use of System.out or System.err by a logger.(Êî¤à8éíÄ‘/
-[	java:S106ú"9Replace this use of System.out or System.err by a logger.(ÙÛŸ™ıÿÿÿÿ8éíÄ‘/
-V	java:S106Á"9Replace this use of System.out or System.err by a logger.(şèÔú8éíÄ‘/
-[	java:S106Û"9Replace this use of System.out or System.err by a logger.(ş¶üÜüÿÿÿÿ8éíÄ‘/
 n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ô‰Ñİıÿÿÿÿ8 íà‘/
-]
-java:S1128	";Remove this unused import 'com.app.dbutil.PasswordHashing'.(ãøğšúÿÿÿÿ8¥™‰­‘/
-[	java:S106Í"9Replace this use of System.out or System.err by a logger.(·İËÉøÿÿÿÿ8éíÄ‘/
-N
-java:S1172¡"+Remove this unused method parameter "user".(ÄÈŞšşÿÿÿÿ8àÖáÄ‘/
-?	java:S131§""Add a default case to this switch.(¨ÕÉ8áúîÅ‘/
-U	java:S106÷"9Replace this use of System.out or System.err by a logger.(šÔÎo8éíÄ‘/
-[	java:S106¾"9Replace this use of System.out or System.err by a logger.(Ä³şäşÿÿÿÿ8éíÄ‘/
-:
-java:S1116ş"Remove this empty statement.(Êî¤à8éíÄ‘/
-i
-java:S1301§"KReplace this "switch" statement by "if" statements to increase readability.(¨ÕÉ8áúîÅ‘/
-V	java:S106û"9Replace this use of System.out or System.err by a logger.(Ø¼¢ƒ8­Åş¡‘/
-N
-java:S1172Ú"+Remove this unused method parameter "user".(×¹¢ÿÿÿÿÿ8éíÄ‘/
-V	java:S106¢"9Replace this use of System.out or System.err by a logger.(¸áˆá8éíÄ‘/
-?
-java:S2111È"!Use "BigDecimal.valueOf" instead.(¢Šõ¯8éíÄ‘/
-[	java:S106ï"9Replace this use of System.out or System.err by a logger.(×ï©ğùÿÿÿÿ8éíÄ‘/
-[	java:S106Î"9Replace this use of System.out or System.err by a logger.(§¤ıÆÿÿÿÿÿ8œş°‘/
-F
-java:S1125û"(Remove the literal "true" boolean value.(ğÍµŒ8éíÄ‘/
 Z
 java:S1128
 ">Remove this unused import 'com.app.dbutil.PostGresConnection'.(Çª}8ÕÖ¬­‘/
+N
+java:S1172Ú"+Remove this unused method parameter "user".(×¹¢ÿÿÿÿÿ8éíÄ‘/
+G
+java:S1125È")Remove the literal "false" boolean value.(¢Šõ¯8éíÄ‘/
+[	java:S106ï"9Replace this use of System.out or System.err by a logger.(×ï©ğùÿÿÿÿ8éíÄ‘/
+[	java:S106ú"9Replace this use of System.out or System.err by a logger.(ÙÛŸ™ıÿÿÿÿ8éíÄ‘/
+[	java:S106Î"9Replace this use of System.out or System.err by a logger.(§¤ıÆÿÿÿÿÿ8œş°‘/
+?
+java:S2111È"!Use "BigDecimal.valueOf" instead.(¢Šõ¯8éíÄ‘/
+?	java:S131‹""Add a default case to this switch.(¨ÕÉ8âªŠ¯‘/
+[	java:S106ê"9Replace this use of System.out or System.err by a logger.(¿°˜‚úÿÿÿÿ8éíÄ‘/
+^	java:S125²"<This block of commented-out lines of code should be removed.(“¿éÿıÿÿÿÿ8áúîÅ‘/
+[	java:S106¾"9Replace this use of System.out or System.err by a logger.(Ä³şäşÿÿÿÿ8éíÄ‘/
+[	java:S106Í"9Replace this use of System.out or System.err by a logger.(·İËÉøÿÿÿÿ8éíÄ‘/
+>	java:S131=""Add a default case to this switch.(¨ÕÉ8Ö¼Ï¦‘/
+^	java:S125ô"<This block of commented-out lines of code should be removed.(“ê•®ùÿÿÿÿ8éíÄ‘/
+]
+java:S1128	";Remove this unused import 'com.app.dbutil.PasswordHashing'.(ãøğšúÿÿÿÿ8¥™‰­‘/
+V	java:S106¨"9Replace this use of System.out or System.err by a logger.(ßÌàñ8éíÄ‘/
+V	java:S106¢"9Replace this use of System.out or System.err by a logger.(¸áˆá8éíÄ‘/
+V	java:S106û"9Replace this use of System.out or System.err by a logger.(Ø¼¢ƒ8­Åş¡‘/
+V	java:S106ş"9Replace this use of System.out or System.err by a logger.(Êî¤à8éíÄ‘/
 [	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(ğˆÌïüÿÿÿÿ8»éŠ¯‘/
 Y	java:S125•"<This block of commented-out lines of code should be removed.(›ûä·8”³¤²‘/
-[	java:S106ê"9Replace this use of System.out or System.err by a logger.(¿°˜‚úÿÿÿÿ8éíÄ‘/
-[	java:S106Ô"9Replace this use of System.out or System.err by a logger.(¿°˜‚úÿÿÿÿ8éíÄ‘/
-?	java:S131‹""Add a default case to this switch.(¨ÕÉ8âªŠ¯‘/
-V	java:S106¨"9Replace this use of System.out or System.err by a logger.(ßÌàñ8éíÄ‘/
+i
+java:S1301§"KReplace this "switch" statement by "if" statements to increase readability.(¨ÕÉ8áúîÅ‘/
+[	java:S106¤"9Replace this use of System.out or System.err by a logger.(ğˆÌïüÿÿÿÿ8éíÄ‘/
+F
+java:S1125û"(Remove the literal "true" boolean value.(ğÍµŒ8éíÄ‘/
+N
+java:S1172¡"+Remove this unused method parameter "user".(ÄÈŞšşÿÿÿÿ8àÖáÄ‘/
+[	java:S106Û"9Replace this use of System.out or System.err by a logger.(ş¶üÜüÿÿÿÿ8éíÄ‘/
+?
+java:S2111"!Use "BigDecimal.valueOf" instead.(Ú´ÕÈ8éíÄ‘/
+U	java:S106÷"9Replace this use of System.out or System.err by a logger.(šÔÎo8éíÄ‘/
+:
+java:S1116ş"Remove this empty statement.(Êî¤à8éíÄ‘/
+?	java:S131§""Add a default case to this switch.(¨ÕÉ8áúîÅ‘/
+V	java:S106Á"9Replace this use of System.out or System.err by a logger.(şèÔú8éíÄ‘/
 N
 java:S1172î"+Remove this unused method parameter "user".(ŒÒïÿÿÿÿÿ8¥«ÔÅ‘/
+[	java:S106Ô"9Replace this use of System.out or System.err by a logger.(¿°˜‚úÿÿÿÿ8éíÄ‘/

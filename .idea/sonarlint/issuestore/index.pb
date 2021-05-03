@@ -41,3 +41,15 @@ T
 $src/main/java/com/app/Bank_Main.java,7\4\7460a63216d2153e98e4e07a7034ab4139c4e650
 R
 "src/test/java/TransactionTest.java,f\f\ff70b26e2f15ace2e6dd875c0becb6a15b3156ad
+R
+"src/test/java/FakeAccountTest.java,e\2\e268e8adf6d55e776a9e6b7a6d3aac5c19192ce8
+V
+&src/test/java/InvalidUsernameTest.java,a\3\a39bf50f9ba6729364c93a0f65da62fa606684a6
+R
+"src/test/java/InvalidMenuTest.java,b\2\b223968b7a6a86ac7293843d11b6ca46f898789e
+S
+#src/test/java/DepositWrongTest.java,3\3\33fc8ea7f4dd23806748e61d8df1a54514d150d8
+K
+src/test/java/MenuTest.java,8\1\81cdba91762b824400e7359ce90ffb760a0344a6
+T
+$src/test/java/InvalidSignUpTest.java,6\e\6e77ff85cac8d1c742baf48044d364e7014127e5

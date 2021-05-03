@@ -1131,3 +1131,8 @@
 [INFO]   - {com.app.dao.impl.UserDAOImpl}       Failed Log in attempt by Johnny     Apr-28--21 Wednesday  EDT  11:03:02        
 [INFO]   - {com.app.dao.impl.UserDAOImpl}       Successful log in attempt by Johnny     Apr-28--21 Wednesday  EDT  11:03:14        
 [INFO]   - {com.app.dao.impl.UserDAOImpl}       Failed Log in attempt by Johnny     Apr-28--21 Wednesday  EDT  13:31:29        
+[INFO]   - {com.app.dao.impl.UserDAOImpl}       Failed Log in attempt by Johnny     May-02--21 Sunday  EDT  22:19:34        
+[INFO]   - {com.app.dao.impl.UserDAOImpl}       Failed Log in attempt by Johnnyisbad     May-02--21 Sunday  EDT  22:29:30        
+[INFO]   - {com.app.Bank_Main}       Enter Username     May-02--21 Sunday  EDT  22:37:32        
+[INFO]   - {com.app.Bank_Main}       Please create your username (only enter alphabetical characters and numerical values, between 2 - 20)     May-02--21 Sunday  EDT  22:37:32        
+[INFO]   - {com.app.Bank_Main}       Enter Username     May-02--21 Sunday  EDT  23:27:01        

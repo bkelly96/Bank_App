@@ -1,29 +1,29 @@
 
-r	java:S117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉŒ½®üÿÿÿÿ8÷¨õ±‘/
-R
-java:S3416"5Update this logger to use "BankAccountDAOImpl.class".(£µóî8Ú¾»¯‘/
->
-java:S1116W"Remove this empty statement.(İûÂÉúÿÿÿÿ8¼‚±‘/
-K
-java:S1481e")Remove this unused "stmt" local variable.(õ½ÛØşÿÿÿÿ8÷¨õ±‘/
-l
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(­µøÚ8Ç—È¯‘/
-q
-java:S2095k"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(…òÊ“üÿÿÿÿ8²‘•²‘/
-i
-java:S20959"GUse try-with-resources or close this "Statement" in a "finally" clause.(õ½ÛØşÿÿÿÿ8©ñì°‘/
-Q
-java:S1128	"/Remove this unused import 'com.app.model.User'.(®¢©Òÿÿÿÿÿ8ûº¯‘/
-Z	java:S106W"9Replace this use of System.out or System.err by a logger.(İûÂÉúÿÿÿÿ8¼‚±‘/
-E
-java:S1125R"(Remove the literal "true" boolean value.(«Æş8¼‚±‘/
-C
-java:S2111h"!Use "BigDecimal.valueOf" instead.(ÉŒ½®üÿÿÿÿ8®à†²‘/
-Z
-java:S1854e"8Remove this useless assignment to local variable "stmt".(õ½ÛØşÿÿÿÿ8÷¨õ±‘/
 i
 java:S2095e"GUse try-with-resources or close this "Statement" in a "finally" clause.(õ½ÛØşÿÿÿÿ8÷¨õ±‘/
-J
-java:S1128".Remove this unused import 'com.app.Bank_Main'.(‚„ş8ûº¯‘/
+C
+java:S2111h"!Use "BigDecimal.valueOf" instead.(ÉŒ½®üÿÿÿÿ8®à†²‘/
+>
+java:S1116W"Remove this empty statement.(İûÂÉúÿÿÿÿ8¼‚±‘/
 R
 java:S1128"0Remove this unused import 'com.app.dao.UserDAO'.(°çª¬şÿÿÿÿ8ûº¯‘/
+l
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(­µøÚ8Ç—È¯‘/
+Z
+java:S1854e"8Remove this useless assignment to local variable "stmt".(õ½ÛØşÿÿÿÿ8÷¨õ±‘/
+q
+java:S2095k"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(…òÊ“üÿÿÿÿ8²‘•²‘/
+Z	java:S106W"9Replace this use of System.out or System.err by a logger.(İûÂÉúÿÿÿÿ8¼‚±‘/
+i
+java:S20959"GUse try-with-resources or close this "Statement" in a "finally" clause.(õ½ÛØşÿÿÿÿ8©ñì°‘/
+r	java:S117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉŒ½®üÿÿÿÿ8÷¨õ±‘/
+J
+java:S1128".Remove this unused import 'com.app.Bank_Main'.(‚„ş8ûº¯‘/
+Q
+java:S1128	"/Remove this unused import 'com.app.model.User'.(®¢©Òÿÿÿÿÿ8ûº¯‘/
+R
+java:S3416"5Update this logger to use "BankAccountDAOImpl.class".(£µóî8Ú¾»¯‘/
+E
+java:S1125R"(Remove the literal "true" boolean value.(«Æş8¼‚±‘/
+K
+java:S1481e")Remove this unused "stmt" local variable.(õ½ÛØşÿÿÿÿ8÷¨õ±‘/

@@ -1,6 +1,20 @@
-UserLoginTest.java
- UserLoginTest
+InvalidSignUpTest.java
+ InvalidSignUpTest
 InvalidLoginTest.java
  InvalidLoginTest
 TransactionTest.java
  TransactionTest
+DepositWrongTest.java
+ DepositWrongTest
+FakeAccountTest.java
+ FakeAccountTest
+UserLoginTest.java
+ UserLoginTest
+InvalidUsernameTest.java
+ InvalidUsernameTest
+MenuTest.java
+ MenuTest
+InvalidMenuTest.java
+ InvalidMenuTest
+LoginMenuTest.java
+ LoginMenuTest

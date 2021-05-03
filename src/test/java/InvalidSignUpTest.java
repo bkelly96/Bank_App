@@ -1,3 +1,4 @@
+import com.app.BusinessException;
 import com.app.dao.UserDAO;
 import com.app.dao.impl.UserDAOImpl;
 import com.app.model.User;
@@ -7,21 +8,21 @@ import java.sql.SQLException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class UserLoginTest {
+public class InvalidSignUpTest {
 
     UserDAOImpl userDAO = new UserDAOImpl();
 
     @Test
-    public void testvalidlogin(){
+    public void testinvalidSignUp(){
 
         User user = new User();
 
         user.setUsername("Johnny");
         user.setPassword("password");
         try {
-            user = userDAO.loginUsername(user);
+            user = userDAO.createUser(user);
 
-        } catch (SQLException throwables) {
+        } catch (SQLException | BusinessException throwables) {
             throwables.printStackTrace();
         }
 
