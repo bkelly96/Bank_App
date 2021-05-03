@@ -134,7 +134,28 @@ public class Bank_Main {
         System.out.println("Welcome to your Bank menu");
         log.info("\n1)Apply for Account\n 2)View Account \n 3 Deposit\n 4) Withdraw\n 5) Transfer \n 0) Exit");
         System.out.println("Please enter a number:");
-        int choice = scanner.nextInt();
+
+
+
+        //this code will keep the user in the loop until they make a valid choice.
+        int choice = 0;
+        boolean valid = false;
+        while (!valid) {
+            System.out.println("Welcome to your Bank menu");
+            log.info("\n1)Apply for Account\n 2)View Account \n 3 Deposit\n 4) Withdraw\n 5) Transfer \n 0) Exit");
+            System.out.println("Please enter a number:");;
+            try {
+                choice = Integer.parseInt(scanner.nextLine());
+                if (choice >= 1 && choice <= 3) {
+                    valid = true;
+                } else {
+                    log.info("Please enter a number between 0 and 5");
+                }
+            } catch (NumberFormatException nfe) {
+                log.info("Please enter a number");
+            }
+            log.info("-------------------");
+        }
 
         switch (choice) {
             case 1://Apply for accounts
@@ -153,6 +174,7 @@ public class Bank_Main {
                 break;
             case 6://Leave
                 break;
+
 */
         }
     }
@@ -162,7 +184,27 @@ public class Bank_Main {
         System.out.println("Welcome to the Employee Interface");
         log.info("\n1) List all Active Accounts\n 2)View Accounts \n 3 List Pending Accounts\n 4) List of All Transactions \n 0) Exit");
         System.out.println("Please enter a number:");
-        int choice = scanner.nextInt();
+
+
+        //this code will keep the user in the loop until they make a valid choice.
+        int choice = 0;
+        boolean valid = false;
+        while (!valid) {
+            System.out.println("Welcome to the Employee Interface");
+            log.info("\n1) List all Active Accounts\n 2)View Accounts \n 3 List Pending Accounts\n 4) List of All Transactions \n 0) Exit");
+            System.out.println("Please enter a number:");;
+            try {
+                choice = Integer.parseInt(scanner.nextLine());
+                if (choice >= 1 && choice <= 3) {
+                    valid = true;
+                } else {
+                    log.info("Please enter a number between 0 and 4");
+                }
+            } catch (NumberFormatException nfe) {
+                log.info("Please enter a number");
+            }
+            log.info("-------------------");
+        }
 
         switch (choice) {
             case 1://List of All Transactions
